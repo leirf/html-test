@@ -1,9 +1,173 @@
-div{
-	width: 100px;
-	height: 100px;
-	background-color: red;
+.top-title a{
+	color: #747474;
 }
-.animation{
-	/*-webkit-transform:rotate(120deg);*/
-	-webkit-transform:skew(5deg,5deg);
+.top-title{
+	line-height: 64px;
+}
+.top-content{
+	height: 100px;
+	background: url("./images/learnCourseVideoTop.jpg");
+}
+.learn-title{
+	font-size: 24px;
+	color: #fff;
+	padding: 13px 0 0 26px;
+}
+.learn-des{
+	font-size: 14px;
+	color: #919292;
+	padding: 6px 26px 0 26px;
+}
+.learn-video{
+	width: 1000px;
+	height: 560px;
+}
+.learn-video-info{
+	height: 84px;
+	background: #101213;
+	line-height: 84px;
+}
+.learn-video-info .left{
+	width: 50%;
+	float: left;
+}
+.learn-video-info .left p{
+	float: left;
+	padding: 0 38px;
+	font-size: 14px;
+}
+.learn-video-info .left p a{
+	color: #1abc9c;
+}
+.learn-video-info .right{
+	width: 350px;
+	height: 84px;
+	float: right;
+	position: relative;
+	margin-right: 40px;
+}
+.learn-video-info .right .rightnum{
+	width: 300px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.learn-video-info .right .rightnum a{
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: #1d1d1d;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	margin: 0 5px;
+	position: relative;;
+	line-height: 40px;
+}
+.rightnum a:hover{
+	width: 36px;
+	height: 36px;
+	border: 1px solid #29bb9c;
+	/*background: red;*/
+	font-size: 24px;
+	line-height: 36px;
+}
+.video-list{
+	margin-top: 20px;
+}
+.list-left{
+	width: 250px;
+	height: auto;
+	float: left;
+}
+.list-left .left{
+	background: #fff;
+	padding: 20px;
+}
+.list-left .time{
+	font-size: 14px;
+	color: #727272;
+	line-height: 50px;
+}
+.list-left .title b{
+	color: #192533;
+	font-size: 16px;
+	line-height: 50px;
+}
+.list-left .content{
+	font-size: 14px;
+	color: #727272;
+	padding-bottom: 20px;
+}
+.list-left .b{
+	display: block;
+	width: 210px;
+	height: 45px;
+	background: #b8b8b8;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.list-left .b-course{
+	background: #fc6622;
+}
+.teacher-info{
+	width: 210px;
+	padding: 20px;
+	background: #fff;
+	height: auto;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.teacher-info .teacher-img{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.teacher-info .teacher-name{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin:5px auto; 
+}
+.teacher-info .teacher-des{
+	font-size: 14px;
+	color: #c1c1c1;
+}
+.video-list .right{
+	width: 666px;
+	/*height: 200px;*/
+	background: #fff;
+	/*margin-right: 50px;*/
+	/*position: relative;*/
+	/*float: right;*/
+	float: right;
+	padding: 0 30px;
+}
+.video-list .right .list-question{
+	width: 600px;
+	margin: 10px auto;
+}
+.video-list .right .list-question span{
+	display: block;
+	width: 200px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #727272;
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	padding-bottom: 20px;
+}
+.video-list .right .list-question .bottomline{
+    border-bottom: 3px solid #23BA98;
+    color: #19253a;
 }
