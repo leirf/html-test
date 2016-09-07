@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="exercise.js"></script>
 <head>
 	<meta charset="UTF-8">
 	<title>soure</title>
 </head>
 <body>
-	<h3>设计从何做起</h3>
-	<ol>
-		<a href="html.htm">
-			<li>设计的基本概念与作品分析</li>
-		</a>
-		<a href="html.htm">
-			<li>设计的基本概念与作品分析</li>
-		</a>
-		<a href="html.htm">
-			<li>设计的基本概念与作品分析</li>
-		</a>
-	</ol>
-	<table border="1px">
-		<tr>
-			<td>2</td>
-			<td>2</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>2</td>
-		</tr>
-	</table>
+	<h2>判断有没有输入,并去除空格</h2>
+	<input id="str" type="text" name="text" value="   过滤空格">
+	<input id="btn" type="button" name="text" value="按钮">
+	<br>
+	<h2>禁止输入</h2>
+	<input type="text" id="banInput" >
+
+	<h2>禁止输入中文</h2>
+	<input type="text" id="banInputMethod" banInputMethod="1">
+
+	<h2>禁止复制粘贴</h2>
+	<input type="text" id="banCopy" value="禁止复制粘贴">
+
+	<h2>只能输入数字</h2>
+	<input type="text" id="onlyNumber">
+	
+	<h2>限制字符串长度</h2>
+	<input type="text" id="limitLength" value="限制字符串长度" limit="10">
+
+	<h2>显示提示消息,获取焦点提示取消</h2>
+	<input type="text" placeholder="html5输入提示">
+	<input type="text" id="hint" hintMessage="提示信息" >
+
+	<h2>实时显示密码强度</h2>
+	<input type="text" id="password" placeholder="请输入密码">
+	<span id="strength"></span>
 </body>
 </html>

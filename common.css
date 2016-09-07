@@ -3,85 +3,72 @@
 	padding: 0;
 }
 body{
-	background-color: #eee;
+	background: url("images/bg.jpg");
+	font-size: 12px;
 }
-.container{
-	width: 1000px;
-	height: 450;
-	margin: 60px auto;
+#header{
+	height: 30px;
+	min-width: 990px;
+	padding: 10px 0;
 	position: relative;
 }
-.pic{
-	width: 150px;
-	padding: 10px;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	box-shadow: 2px 2px 3px #666;
-	-webkit-transition: all 0.5s ease-in;
+#hd_nav{
+	float: right;
+}
+a{
+	text-decoration: none;
+	cursor: auto;
+	color: #fff;
+	line-height: 14px;
+	height: 14px;
+}
+ul{
+	list-style: none;	
+	
+}
+#hd_nav li{
+	border-right: 1px solid #333;
+	float: left;
+	height: 14px;	
+	padding: 0 10px;
+}
+#hd_nav .skin a{
+    padding-left: 22px;
+    position: relative;
+}
+#hd_nav li .ico{
+    background: url("http://p7.qhimg.com/d/inn/774669ac/t01bc32feb0bbb5c4e0.png") no-repeat;
+    left: 0;
+    position: absolute;
+}
+
+#hd_nav .skin .ico{
+    background-position: 0 -270px;
+    height: 15px;
+    top: -1px;
+    width: 16px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+.login{
+	padding-left: 41px;
+	position: relative;
+}
+.avatar{
+	border-radius: 18px;
+	box-shadow: 0 1px 5px #333;
+	height: 20px;
+	left: 10px; 
 	position: absolute;
+	top: -2px;
+	width: 20px;
 }
-.container img:hover{
-    box-shadow: 15px 15px 20px rgba(50,50,50,0.4);
-    transform:rotate(0deg) scale(1.20);
-    -webkit-transform:rotate(0deg) scale(1.20);
-    z-index: 2;
+.a1{
+	margin-left: 30px;
 }
-
-.pic1{
-    left: 100px;
-    top: 0;
-    transform:rotate(-5deg);
-    -webkit-transform:rotate(-5deg);
+.a2{
+	margin-left: 5px;
 }
 
-.pic2{
-    left: 300px;
-    top: 0;
-    transform:rotate(-20deg);
-    -webkit-transform:rotate(-20deg);
-}
-.pic3{
-    bottom: 100px;
-    right: 100px;
-    transform:rotate(5deg);
-    -webkit-transform:rotate(5deg);
-}
-
-.pic4{
-    bottom0: 400px;
-    left: 300;
-    transform:rotate(-10deg);
-    -webkit-transform:rotate(-10deg);
-}
-
-.pic5{
-    bottom: 0px;
-    top: 300px;
-    transform:rotate(-10deg);
-    -webkit-transform:rotate(-10deg);
-}
-.pic6{
-    left: 300px;
-    top: 300px;
-    transform:rotate(10deg);
-    -webkit-transform:rotate(10deg);
-}
-
-.pic7{
-    left: 850px;
-    top: 0;
-    transform:rotate(20deg);
-    -webkit-transform:rotate(20deg);
-}
-.pic8{
-    bottom: -20px;
-    top: 650px;
-    transform:rotate(5deg);
-    -webkit-transform:rotate(5deg);
-}
-.pic9{
-    left: 550px;
-    top: 90;
-    transform:rotate(15deg);
-    -webkit-transform:rotate(15deg);
-}
